@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ConversaBot - Chatbot con OpenAI API
 
-## Getting Started
+ConversaBot es un chatbot simple construido con la OpenAI API, Next.js, Shadcn y Tailwind CSS. Este proyecto es una excelente introducción a la creación de aplicaciones basadas en inteligencia artificial y la implementación de una interfaz de usuario moderna.
 
-First, run the development server:
+## Tecnologías utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **OpenAI API**: Para generar respuestas inteligentes y realistas.
+- **Next.js**: Framework de React para construir aplicaciones web.
+- **Shadcn**: Librería de componentes de React.
+- **Tailwind CSS**: Framework de CSS para estilos rápidos y responsivos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Requisitos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js (v14 o superior)
+- NPM o Yarn
+- Una cuenta en [OpenAI](https://platform.openai.com/docs/quickstart) y una clave API
 
-## Learn More
+## Instalación
 
-To learn more about Next.js, take a look at the following resources:
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/CodeWithChaza/conversa_bot.git
+   cd conversabot
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Instala las dependencias necesarias:
+   ```bash
+   npm install
+   # o si usas Yarn
+   yarn install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Crea un archivo `.env.local` en la raíz del proyecto y agrega tu clave de la API de OpenAI:
+   ```bash
+   OPENAI_API_KEY=tu_clave_api
+   ```
 
-## Deploy on Vercel
+4. Configura los estilos de Tailwind en `tailwind.config.js` y asegúrate de que Shadcn esté integrado con tu proyecto Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Uso
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   # o si usas Yarn
+   yarn dev
+   ```
+
+2. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el proyecto en acción.
+
+## Características
+
+- **Interfaz intuitiva**: La interfaz está diseñada con Tailwind CSS y Shadcn, ofreciendo un diseño limpio y responsivo.
+- **Respuestas AI**: Integra la OpenAI API para proporcionar respuestas de chatbot en tiempo real.
+- **Configurabilidad**: Puedes modificar el prompt del chatbot para ajustar su comportamiento.
+
+## Contribuciones
+
+Si quieres contribuir a este proyecto, por favor, realiza un fork del repositorio y abre un pull request con tus mejoras.
+
+## Licencia
+
+Este proyecto se distribuye bajo la licencia MIT.
+
+---
+
+¡Espero que te sea útil! Puedes personalizar este README según las necesidades de tu proyecto y añadir cualquier sección adicional que consideres importante, como ejemplos de uso o notas sobre la configuración del entorno de producción.
