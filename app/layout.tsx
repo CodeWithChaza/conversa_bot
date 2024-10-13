@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Conversa Bot",
-  description: "ConversaBot es un chatbot simple construido con la OpenAI API,",
+  description: "ConversaBot es un chatbot simple construido con la OpenAI API. Code With Chaza. ",
 };
 
 export default function RootLayout({
