@@ -2,6 +2,8 @@
 
 ConversaBot es un chatbot simple construido con la OpenAI API, Next.js, Shadcn y Tailwind CSS. Este proyecto es una excelente introducción a la creación de aplicaciones basadas en inteligencia artificial y la implementación de una interfaz de usuario moderna.
 
+Youtube Tutorial: https://www.youtube.com/watch?v=y6MGwhgxZEI
+
 ## Tecnologías utilizadas
 
 - **OpenAI API**: Para generar respuestas inteligentes y realistas.
@@ -56,9 +58,6 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 - **Respuestas AI**: Integra la OpenAI API para proporcionar respuestas de chatbot en tiempo real.
 - **Configurabilidad**: Puedes modificar el prompt del chatbot para ajustar su comportamiento.
 
-## Contribuciones
-
-Si quieres contribuir a este proyecto, por favor, realiza un fork del repositorio y abre un pull request con tus mejoras.
 
 ## Licencia
 
