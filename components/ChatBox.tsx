@@ -37,8 +37,9 @@ const ChatBox = () => {
 
 
   return (
-    <div className='flex flex-col flex-grow justify-end w-full pt-12 pb-2 rounded'>
-        <div className='flex flex-col text-white'>
+    <div className='flex flex-col flex-grow justify-end w-full pt-12 pb-2 rounded overflow-auto 
+    max-w-[64rem] max-h-[36rem] min-h-[100vh] bg-gradient-to-b from-slate-900 to-slate-800'>
+        <div className='flex flex-col text-white overflow-auto'>
             {chatHistoria.map((mensaje, index) => (
                 <Mensaje 
                     key={index}
